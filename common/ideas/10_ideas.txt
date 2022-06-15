@@ -1,0 +1,61 @@
+ideas = {
+	country = {
+		idea_full_mobilisation = {
+			removal_cost = -1		
+			allowed = {
+				always = yes
+			}
+			picture = vittoria_mutilata
+			modifier = {
+				conscription = 0.6
+			}
+		}
+		idea_peoples_front = {
+			removal_cost = -1		
+			allowed = {
+				always = yes
+			}
+			picture = FRA_national_mobilization_focus
+			modifier = {
+				resistance_growth_on_our_occupied_states = 0.2
+				resistance_target_on_our_occupied_states = 0.2
+			}
+		}
+		idea_zagrad_detachments = {
+			removal_cost = -1		
+			allowed = {
+				always = yes
+			}
+			picture = nkvd
+			modifier = {
+				army_attack_factor = 0.5
+				army_attack_speed_factor = 0.35
+				army_defence_factor = -0.1
+			}
+		}
+		idea_cheapen_everything = {
+			removal_cost = -1		
+			allowed = {
+				always = yes
+			}
+			picture = FRA_factory_strikes
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.5 
+				production_factory_max_efficiency_factor = 0.5 
+				production_lack_of_resource_penalty_factor = -0.5 
+				attrition = 0.3
+			}
+		}
+		idea_gas_storm = {
+			removal_cost = -1		
+			allowed = {
+				always = yes
+			}
+			picture = FRA_army_of_aggression_focus
+			modifier = {
+				monthly_population = -0.2
+				army_attack_factor = 1
+			}
+		}
+	}
+}

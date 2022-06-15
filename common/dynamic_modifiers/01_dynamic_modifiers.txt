@@ -1,0 +1,9 @@
+oro = {
+	remove_trigger = { 
+		check_variable = {
+			readiness = 100
+		}
+	}
+	
+	icon = GFX_idea_GUB_rules_above_gg
+}

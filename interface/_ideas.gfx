@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_GUB_rules_above_gg"
+		texturefile = "gfx/interface/ideas/idea_GUB_rules_above_gg.dds"
+	}				
+}
